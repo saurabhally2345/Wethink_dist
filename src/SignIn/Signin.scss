@@ -1,0 +1,139 @@
+.signinImageResponsive{
+  display: block  ;
+ align-items:center; 
+ position: relative;
+ min-width: 116%;
+ z-index: 1;
+ 
+}
+
+.textAlignment{
+  display: flex;
+  align-content: flex-start;
+}
+.imageContainer{
+  // padding-left: -15%;;
+  // background-color: ;
+}
+
+.imageRs{
+  display: flex;
+  justify-content: flex-start;
+  min-width: 651%;
+  max-height: 82%;
+  padding-right: 497%;
+}
+.imageoverLap{
+padding-bottom: 100px;
+//  max-height: 80%;
+}
+.image {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  .images{
+    display: none;
+  }
+  .overlay{
+display: none;
+  }
+  .overlayR{
+    display: none;
+      }
+
+  // @media  screen and (min-width:660px){
+  //   .overlay{
+  //       display: none;
+  //   }
+  //   .overlayR{
+  //       display: none;
+  //   }  
+  // }  
+
+  .kep-login-facebook.metro{
+    padding: 13px;
+    max-height: 103%;
+    min-width: 100%;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .form-check{
+ text-align: left;
+ padding-bottom: 15px;
+  }
+  .overlayRhead{
+    display: none;
+  }
+@media  screen and (max-width:660px){
+    .signinImageResponsive{
+        display:none;
+    }
+    // .overlay {
+    //     position: absolute; 
+    //     bottom: 0; 
+    //     color: #f1f1f1; 
+    //     width: 100%;
+    //     opacity:1;
+    //     color: white;
+    //     font-size: 20px;
+    //     padding: 20px;
+    //     text-align: left;
+
+    //   }
+    .image{
+      display: none;
+    }
+      .imageRs {
+        display: none;
+      }
+      .images{
+        display: flex;
+        justify-content: stretch;
+        background-image: url('./../Asset/hero_img_mob.png');
+      }
+      .overlayR{
+        position: absolute; 
+        top: 0; 
+        color: #f1f1f1; 
+        font-size: 20px;
+        padding: 20px;
+        text-align: left;
+        padding-left: 15px;
+        display: flex;
+        justify-content:start;
+        color: #FFFFFF;
+        font-size: 20px;
+      }
+      .overlayRhead{
+        position: absolute; 
+        top:185px; 
+        color: #f1f1f1; 
+        font-size: 20px;
+        padding: 20px;
+        padding-left: 15px;
+        display: flex;
+        justify-content:start;
+        color: #FFFFFF;
+      }
+      .kep-login-facebook.metro{
+        min-height: 75%;
+        font-size: 8px;
+        min-width: 118%;
+        padding-top: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      }
+      .buttonR{
+        max-height: 78%;
+
+        min-width: 126%;
+        margin-top: 1px;
+text-align: center;
+
+      }
+      .footerTitles{
+          text-align: center;
+      }
+      
+}

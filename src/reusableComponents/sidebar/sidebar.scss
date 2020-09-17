@@ -1,0 +1,30 @@
+.SidebarCss {
+  padding-left: 15px;;  
+}
+  .ImageCsS{
+      text-align: center;
+     
+  }
+  .active-link{
+    display: flex;
+    justify-content: end;
+  }
+
+  // .lnkCss{
+  //     padding:14px;
+  // }
+  .lnkCssCard{
+    // box-shadow: 1px 1px 1px grey;
+      min-width: 100%;
+      margin-bottom: 5px;
+ 
+      // padding-bottom: 10px;
+    }
+@media  screen and (max-width: 300px) {
+    .SidebarCss {
+      background-color: yellow;
+      max-width: 100%;
+      min-height: 100%;
+
+    }
+  }

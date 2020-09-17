@@ -1,0 +1,11 @@
+.profileBody{
+  min-width: 300%;
+}
+
+@media  screen and (min-width: 300px) {
+    .sidebarBody {
+      background-color: red;
+      min-width: 30%;
+
+    }
+}

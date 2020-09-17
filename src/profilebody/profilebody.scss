@@ -1,0 +1,88 @@
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+.profileBody{
+        body { margin: 0; } 
+        div#slider { overflow: hidden; }
+        div#slider figure img { width: 20%; float: left; }
+        div#slider figure { 
+          position: relative;
+          min-width: 109%;
+          margin: 0;
+          left: 0;
+          bottom: 0%;
+          text-align: left;
+          font-size: 0;
+          animation: 30s slidy infinite; 
+          background-color: black;
+          opacity: 0.8;
+        }
+        
+}
+
+.profileBody{
+  max-width:100%;
+  min-height: 20%;
+}
+
+.registerRes{
+  display: none;
+}
+
+@media screen and (max-width:660px){
+  .profileBody{
+      opacity: 0.8;
+      min-width: 100%;
+      display: flex;
+      justify-content: column;
+      
+  }
+  
+  .cardRR{
+    padding-right: 26px;
+    padding-top: 22px;
+    padding-left: 26px;
+  }
+  .resDisplay{
+    display: none;
+  }
+  .registerRes{
+  display: flex;
+  justify-content:start;
+  color: #FFFFFF;
+  font-size: 20px;
+  }
+  .imageSlider{
+    overflow-x: auto;
+    white-space: nowrap;
+    min-width: 219%;
+    line-height:1.5rem;
+    // display: inline-flex;
+    // justify-content: flex-start;
+  }
+  .columneSlider{
+    min-width: 271%;
+    overflow-x: scroll;
+  }
+  .columneSli{
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    min-width:  0%;
+   
+
+  }
+
+  
+  }
+  

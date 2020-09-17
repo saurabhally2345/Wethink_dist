@@ -1,0 +1,14 @@
+.sideHeight{
+    padding-top: 24px;
+padding-left: 96px;
+padding-right: 32px;
+
+
+
+}
+
+@media screen and (max-width:660px){
+    .sideHeight{
+          display: none;
+    }
+}
