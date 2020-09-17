@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DashBoard from './dashboard./dashboard';
 import Home from './homePage/home';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Registration from './registration/registration';
